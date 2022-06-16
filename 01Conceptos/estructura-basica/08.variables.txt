@@ -1,0 +1,8 @@
+tipoDeVariable nombreVariable = valorInicial
+Ejemplo: int number = 0;
+.
+Las variables no pueden:
+
+Empezar con caracter especial
+Un numero
+No tienen espacio

@@ -1,0 +1,13 @@
+PROCESO PARA EJECU TAR CODIGO
+.
+
+EDITOR: Escribir nuestro codigo en nuestro editor favorito
+PREPROCESADOR: Un preprocesador toma nuestro codigo fuente y este los junta en otro o varios archivos segun sea necesario para facilitar los procesos siguientes
+.
+COMPILADOR: Al igual que el preprocesador, el compilador es un programa externo a nuestro codigo fuente, que toma el/los archivos ya preprocesados y los transforma en un codigo de objetos (codigo ilegible para humanos pero mas entendible para la CPU)
+.
+LINKER: Si tu codigo fuente requiere librerias o dependencias externas, aqui se crea ese link entre las librerias y tu codigo (luego de que nuestro codigo haya sido preprocesado y compilado)
+.
+LOADER: El loader arranca la ejecucion de nuestro programa e importa las librerias que pueden ser utilizadas de forma dinamica
+.
+EJECUCION: Nuestro programa ya se encuentra en memoria ram listo enviar esos bytes a la CPU y ser procesado

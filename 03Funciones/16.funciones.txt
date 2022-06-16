@@ -1,0 +1,34 @@
+funciones pueden declararce de dos maneras :
+–una que te retorna un valor :
+ejemplo :
+int nombre_funcion(variables){
+
+return variable que tu quieras;
+}
+float nombre_funcion(variables){
+
+return variable que tu quieras;
+}
+char nombre_funcion(variables){
+
+return variable que tu quieras;
+}
+–devuelve varios valores
+void(int &variable float &variable2){
+
+}
+
+
+
+Una función es un bloque de sentencias que están disponibles para ser llamadas desde cualquier parte del programa, una función no puede ser anidadas, esto quiere decir que una función no puede ser declarada dentro de otra función. La estructura de una función en C++ es la siguiente:
+
+tipo_retorno nombreFuncion (ListaParametros)
+{
+//Cuerpo de la función
+return expresion;
+}
+
+tipo_retorno tipo de valor devuelto por la función o la palabra void si la función no devuelve nada.
+nombreFuncion nombre con el cual se identifica la función (debe ser uno aceptado por C++).
+ListaParametros lista de los parámetros que toma la función separados por comas.
+expresion valor que devuelve la función
